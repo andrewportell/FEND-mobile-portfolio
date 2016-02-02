@@ -6,69 +6,10 @@
     <meta name="description" content="Generic mobile portfolio for Project 4 - Website Optimization.">
     <meta name="author" content="Cameron Pittman, Andrew Portell">
     <title>Cameron Pittman: Portfolio</title>
-    <style>
-    /** {outline: 1px solid red !important; }*/
-    html {
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      -box-sizing: border-box;
-    }
 
-    body {
-      font-family: "Trebuchet MS", Helvetica, sans-serif;
-      background: black;
-    }
-
-    input {
-      background: grey;
-      font-size: 18px;
-    }
-
-    form {
-      display: inline-block;
-    }
-
-    .centered {
-      text-align: center;
-    }
-
-    #pizzaSize {
-      font-weight: 800;
-    }
-
-    .mover {
-      position: fixed;
-      width: 256px;
-      z-index: -1;
-    }
-
-    .randomPizzaContainer {
-      float: left;
-      display: flex;
-    }
-
-    .randomPizzaContainer:after {
-      content: "";
-      display: table;
-      clear:both;
-    }
-
-     .container {
-      background-color: rgba(240, 60, 60, 0.8);
-    }
-
-    @media print {
-      * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; }
-      a, a:visited { color: #444 !important; text-decoration: underline; }
-      a[href]:after { content: " (" attr(href) ")"; }
-      tr, img { page-break-inside: avoid; }
-      img { max-width: 100% !important; }
-      @page { margin: 0.5cm; }
-      p, h2, h3 { orphans: 3; widows: 3; }
-      h2, h3{ page-break-after: avoid; }
-    }
-    </style>
+    <link href="css/style.css.gz" rel="stylesheet">
     <link href="css/print.css" rel="stylesheet">
+
   </head>
 
   <body>
@@ -85,19 +26,19 @@
       <div class="content">
         <ul>
           <li>
-            <img style="width: 100px;" src="img/2048_100x67.png">
+            <img src="img/2048.jpg">
             <a href="project-2048.html">Build Your Own 2048!</a>
             <p>I made my own version of 2048. How cool is that!?</p>
           </li>
 
           <li>
-            <img src="https://lh6.ggpht.com/f_0W8h__3G99CWTjnMjD8BUKm7yp2-wJyApLtTwFoFtlal2ULf_JgHIsOQq2NiYfKOdMlXlMHDKNo5XVZLs=s100">
+            <img src="img/web_perf_opt.jpg">
             <a href="project-webperf.html">Website Performance Optimization</a>
             <p>Hey... this class looks familiar.</p>
           </li>
 
           <li>
-            <img src="https://lh5.ggpht.com/IKdCmTWn8a2nMhlwMYzryvzRN5CUZAOBr4tDrEAbszV7TIFe9pRAInA4kkYcgTXwrifJsBEsq1agTueuu-g=s100">
+            <img src="img/mobile_web_dev.jpg">
             <a href="project-mobile.html">Mobile Web Development</a>
             <p>Making mobile apps isn't so hard after all.</p>
           </li>
